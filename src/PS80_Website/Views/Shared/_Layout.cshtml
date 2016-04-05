@@ -69,6 +69,10 @@
                     asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
             </script>
             <script src="~/js/site.min.js" asp-append-version="true"></script>
+
+            <script src='~/lib/fullcalendar/lib/jquery.min.js'></script>
+            <script src='~/lib/fullcalendar/lib/moment.min.js'></script>
+            <script src='~/lib/fullcalendar/fullcalendar.js'></script>
         </environment>
 
         @RenderSection("scripts", required: false)
