@@ -20,6 +20,11 @@ namespace PS80_Website.Controllers
             return View();
         }
 
+        public IActionResult Announcements()
+        {
+            return View();
+        }
+
         public IActionResult Calendar()
         {
             return View();
@@ -29,6 +34,21 @@ namespace PS80_Website.Controllers
         {
             ViewData["Message"] = "Your contact page.";
 
+            return View();
+        }
+
+        public IActionResult Teachers()
+        {
+            return View();
+        }
+
+        public IActionResult Gallery()
+        {
+            return View();
+        }
+
+        public IActionResult Students()
+        {
             return View();
         }
 

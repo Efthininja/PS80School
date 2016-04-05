@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>@ViewData["Title"] - PS80_Website</title>
+        <title>@ViewData["Title"] P.S. 80 Thurgood Marshall </title>
 
         <environment names="Development">
             <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -31,10 +31,12 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-controller="Home" asp-action="About">About</a></li>
-                        <li><a asp-controller="Home" asp-action="Calendar">Calendar</a></li>
-                        <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
-                        <li><a asp-controller="Account" asp-action="Login">Teacher Portal</a></li>
+                        <li><a asp-controller="Home" asp-action="About">ABOUT</a></li>
+                        <li><a asp-controller="Home" asp-action="Announcements">ANNOUNCEMENTS</a></li>
+                        <li><a asp-controller="Home" asp-action="Calendar">CALENDAR</a></li>
+                        <li><a asp-controller="Home" asp-action="Teachers">TEACHERS</a></li>
+                        <li><a asp-controller="Home" asp-action="Gallery">PHOTO GALLERY</a></li>
+                        <li><a asp-controller="Home" asp-action="Students">STUDENTS </a></li>
                     </ul>
                     @await Html.PartialAsync("_LoginPartial")
                 </div>
